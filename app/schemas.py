@@ -10,6 +10,7 @@ class Entity(BaseModel):
     label: str
     start: int
     end: int
+    placeholder: str
 
 
 class FilterResult(BaseModel):
